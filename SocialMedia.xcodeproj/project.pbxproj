@@ -15,6 +15,12 @@
 		735A59DC2BD151B300CD12DE /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59DB2BD151B300CD12DE /* RegistrationView.swift */; };
 		735A59DF2BD1538200CD12DE /* TextFieldViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59DE2BD1538200CD12DE /* TextFieldViewModifier.swift */; };
 		735A59E12BD1554300CD12DE /* ButtonTextViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59E02BD1554300CD12DE /* ButtonTextViewModifier.swift */; };
+		735A59E62BD158E400CD12DE /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59E52BD158E400CD12DE /* TabBarView.swift */; };
+		735A59ED2BD15BA000CD12DE /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59EC2BD15BA000CD12DE /* FeedView.swift */; };
+		735A59EF2BD15BA500CD12DE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59EE2BD15BA500CD12DE /* ExploreView.swift */; };
+		735A59F12BD15BAB00CD12DE /* CreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59F02BD15BAB00CD12DE /* CreationView.swift */; };
+		735A59F32BD15BB100CD12DE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59F22BD15BB100CD12DE /* ActivityView.swift */; };
+		735A59F52BD15BB600CD12DE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59F42BD15BB600CD12DE /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +33,12 @@
 		735A59DB2BD151B300CD12DE /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		735A59DE2BD1538200CD12DE /* TextFieldViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewModifier.swift; sourceTree = "<group>"; };
 		735A59E02BD1554300CD12DE /* ButtonTextViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTextViewModifier.swift; sourceTree = "<group>"; };
+		735A59E52BD158E400CD12DE /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		735A59EC2BD15BA000CD12DE /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		735A59EE2BD15BA500CD12DE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		735A59F02BD15BAB00CD12DE /* CreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationView.swift; sourceTree = "<group>"; };
+		735A59F22BD15BB100CD12DE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		735A59F42BD15BB600CD12DE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +116,13 @@
 			isa = PBXGroup;
 			children = (
 				735A59D42BD14A3000CD12DE /* Authentification */,
+				735A59EB2BD15B3300CD12DE /* Feed */,
+				735A59EA2BD15B3200CD12DE /* Explore */,
+				735A59E92BD15B3100CD12DE /* Creation */,
+				735A59E82BD15B2F00CD12DE /* Activity */,
+				735A59E72BD15B2E00CD12DE /* Profile */,
 				735A59D52BD14A3400CD12DE /* Root */,
+				735A59E22BD1577F00CD12DE /* TabBar */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -149,6 +167,54 @@
 				735A59E02BD1554300CD12DE /* ButtonTextViewModifier.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		735A59E22BD1577F00CD12DE /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				735A59E52BD158E400CD12DE /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		735A59E72BD15B2E00CD12DE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				735A59F42BD15BB600CD12DE /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		735A59E82BD15B2F00CD12DE /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				735A59F22BD15BB100CD12DE /* ActivityView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		735A59E92BD15B3100CD12DE /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				735A59F02BD15BAB00CD12DE /* CreationView.swift */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		735A59EA2BD15B3200CD12DE /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				735A59EE2BD15BA500CD12DE /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		735A59EB2BD15B3300CD12DE /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				735A59EC2BD15BA000CD12DE /* FeedView.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,8 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				735A59F32BD15BB100CD12DE /* ActivityView.swift in Sources */,
+				735A59ED2BD15BA000CD12DE /* FeedView.swift in Sources */,
+				735A59F12BD15BAB00CD12DE /* CreationView.swift in Sources */,
+				735A59EF2BD15BA500CD12DE /* ExploreView.swift in Sources */,
+				735A59F52BD15BB600CD12DE /* ProfileView.swift in Sources */,
 				735A59DF2BD1538200CD12DE /* TextFieldViewModifier.swift in Sources */,
 				735A59D82BD14B0100CD12DE /* LoginView.swift in Sources */,
+				735A59E62BD158E400CD12DE /* TabBarView.swift in Sources */,
 				735A59E12BD1554300CD12DE /* ButtonTextViewModifier.swift in Sources */,
 				735A59C32BD0414000CD12DE /* ContentView.swift in Sources */,
 				735A59C12BD0414000CD12DE /* SocialMediaApp.swift in Sources */,
