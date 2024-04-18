@@ -40,12 +40,7 @@ struct LoginView: View {
                     
                 } label: {
                     Text("Login")
-                        .font(.headline)
-                        .fontWeight(.semibold)
-                        .foregroundStyle(.white)
-                        .frame(width: 352, height: 44)
-                        .background(.black)
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                        .modifier(ButtonTextViewModifier())
                 }
                 
                 Spacer()
