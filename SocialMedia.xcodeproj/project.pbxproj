@@ -24,6 +24,7 @@
 		735A59F72BD2981100CD12DE /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59F62BD2981100CD12DE /* FeedCell.swift */; };
 		735A59F92BD2C96900CD12DE /* ExploreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59F82BD2C96900CD12DE /* ExploreCell.swift */; };
 		735A59FC2BD2CBF500CD12DE /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59FB2BD2CBF500CD12DE /* CircularProfileImageView.swift */; };
+		735A59FE2BD2D60300CD12DE /* ProfileFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59FD2BD2D60300CD12DE /* ProfileFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		735A59F62BD2981100CD12DE /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		735A59F82BD2C96900CD12DE /* ExploreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCell.swift; sourceTree = "<group>"; };
 		735A59FB2BD2CBF500CD12DE /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
+		735A59FD2BD2D60300CD12DE /* ProfileFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		735A59E72BD15B2E00CD12DE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				735A59FD2BD2D60300CD12DE /* ProfileFilter.swift */,
 				735A59F42BD15BB600CD12DE /* ProfileView.swift */,
 			);
 			path = Profile;
@@ -309,6 +312,7 @@
 				735A59ED2BD15BA000CD12DE /* FeedView.swift in Sources */,
 				735A59F12BD15BAB00CD12DE /* CreationView.swift in Sources */,
 				735A59FC2BD2CBF500CD12DE /* CircularProfileImageView.swift in Sources */,
+				735A59FE2BD2D60300CD12DE /* ProfileFilter.swift in Sources */,
 				735A59EF2BD15BA500CD12DE /* ExploreView.swift in Sources */,
 				735A59F52BD15BB600CD12DE /* ProfileView.swift in Sources */,
 				735A59DF2BD1538200CD12DE /* TextFieldViewModifier.swift in Sources */,
