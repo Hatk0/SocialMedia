@@ -22,6 +22,8 @@
 		735A59F32BD15BB100CD12DE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59F22BD15BB100CD12DE /* ActivityView.swift */; };
 		735A59F52BD15BB600CD12DE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59F42BD15BB600CD12DE /* ProfileView.swift */; };
 		735A59F72BD2981100CD12DE /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59F62BD2981100CD12DE /* FeedCell.swift */; };
+		735A59F92BD2C96900CD12DE /* ExploreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59F82BD2C96900CD12DE /* ExploreCell.swift */; };
+		735A59FC2BD2CBF500CD12DE /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735A59FB2BD2CBF500CD12DE /* CircularProfileImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		735A59F22BD15BB100CD12DE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		735A59F42BD15BB600CD12DE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		735A59F62BD2981100CD12DE /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		735A59F82BD2C96900CD12DE /* ExploreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCell.swift; sourceTree = "<group>"; };
+		735A59FB2BD2CBF500CD12DE /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		735A59D22BD149E900CD12DE /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				735A59FA2BD2CBDD00CD12DE /* Components */,
 				735A59D42BD14A3000CD12DE /* Authentification */,
 				735A59EB2BD15B3300CD12DE /* Feed */,
 				735A59EA2BD15B3200CD12DE /* Explore */,
@@ -207,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				735A59EE2BD15BA500CD12DE /* ExploreView.swift */,
+				735A59F82BD2C96900CD12DE /* ExploreCell.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -218,6 +224,14 @@
 				735A59F62BD2981100CD12DE /* FeedCell.swift */,
 			);
 			path = Feed;
+			sourceTree = "<group>";
+		};
+		735A59FA2BD2CBDD00CD12DE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				735A59FB2BD2CBF500CD12DE /* CircularProfileImageView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +308,7 @@
 				735A59F72BD2981100CD12DE /* FeedCell.swift in Sources */,
 				735A59ED2BD15BA000CD12DE /* FeedView.swift in Sources */,
 				735A59F12BD15BAB00CD12DE /* CreationView.swift in Sources */,
+				735A59FC2BD2CBF500CD12DE /* CircularProfileImageView.swift in Sources */,
 				735A59EF2BD15BA500CD12DE /* ExploreView.swift in Sources */,
 				735A59F52BD15BB600CD12DE /* ProfileView.swift in Sources */,
 				735A59DF2BD1538200CD12DE /* TextFieldViewModifier.swift in Sources */,
@@ -303,6 +318,7 @@
 				735A59C32BD0414000CD12DE /* ContentView.swift in Sources */,
 				735A59C12BD0414000CD12DE /* SocialMediaApp.swift in Sources */,
 				735A59DC2BD151B300CD12DE /* RegistrationView.swift in Sources */,
+				735A59F92BD2C96900CD12DE /* ExploreCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
