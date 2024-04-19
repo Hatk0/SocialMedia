@@ -6,11 +6,22 @@ struct FeedView: View {
             ScrollView {
                 LazyVStack {
                     ForEach(0...10, id: \.self) { thread in
-                        Text("Some text")
+                        FeedCell()
                     }
                 }
             }
+            .refreshable {
+                print("Refresh Feed")
+            }
             .scrollIndicators(.hidden)
+            .navigationTitle("Threads")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Image(systemName: "arrow.counterclockwise")
+                        .foregroundStyle(.black)
+                }
+            }
         }
     }
 }
