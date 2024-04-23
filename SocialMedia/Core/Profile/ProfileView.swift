@@ -90,10 +90,3 @@ struct ProfileView: View {
 #Preview {
     ProfileView()
 }
-
-//.toolbar {
-//    ToolbarItem(placement: .topBarTrailing) {
-//        Image(systemName: "line.3.horizontal")
-//            .foregroundStyle(.black)
-//    }
-//}
